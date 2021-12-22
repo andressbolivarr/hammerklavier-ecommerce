@@ -8,6 +8,8 @@ export default function Layout({ children, categories }) {
   if (categories.length > navItemLength) {
     categories = categories.slice(0, navItemLength)
   }
+  <a href='https://andressbolivarr.github.io/Portfolio/index.html'> <a href='https://andressbolivarr.github.io/Portfolio/index.html'> Copyright © 2021 Hammerklavier Ecommerce. All rights reserved.</a>
+ Designed by <b>Andres Bolivar</b>  </a>
   return (
     <div>
       <nav>
@@ -76,7 +78,8 @@ export default function Layout({ children, categories }) {
         desktop:px-20
         border-solid
         border-t border-gray-300">
-          <span className="block text-gray-700 text-xs">Copyright © 2021 Hammerklavier Ecommerce. All rights reserved.</span>
+          <span className="block text-gray-700 text-xs"><a href='https://andressbolivarr.github.io/Portfolio/index.html'> Copyright © 2021 Hammerklavier Ecommerce. All rights reserved.
+ Designed by <b>Andres Bolivar</b>  </a></span>
           <div className="
             sm:justify-end sm:m-0
             flex flex-1 mt-4

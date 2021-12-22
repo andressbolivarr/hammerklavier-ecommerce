@@ -7,7 +7,7 @@ Out of the box, the site uses completely static data coming from a provider at `
 ![Home](example-images/1.png)
 
 ### Live preview
-
+a
 Click [here](https://www.Hammerklavierecommerce.dev/) to see a live preview.
 
 <details>
@@ -21,7 +21,6 @@ Click [here](https://www.Hammerklavierecommerce.dev/) to see a live preview.
 
 ### Cart view
 ![Cart view](example-images/4.png)
-
 ### Admin panel
 ![Admin panel](example-images/5.png)
 </details>
