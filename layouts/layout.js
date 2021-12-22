@@ -19,7 +19,7 @@ export default function Layout({ children, categories }) {
             <div className="mb-4 sm:mr-16 max-w-48 sm:max-w-none">
               <Link href="/">
                 <a aria-label="Home">
-                  <img src="/logo.png" alt="logo" width="90" height="28" />
+                  <img src="/logo.png" alt="logo" width="70" height="28" position="relative" top="-10px"/>
                 </a>
               </Link>
             </div>
@@ -73,17 +73,17 @@ export default function Layout({ children, categories }) {
         sm:flex-row sm:items-center
         flex-col
         flex w-fw px-12 py-8
-        desktop:px-0
+        desktop:px-20
         border-solid
         border-t border-gray-300">
-          <span className="block text-gray-700 text-xs">Copyright © 2021 JAMstack Ecommerce. All rights reserved.</span>
+          <span className="block text-gray-700 text-xs">Copyright © 2021 Hammerklavier Ecommerce. All rights reserved.</span>
           <div className="
             sm:justify-end sm:m-0
             flex flex-1 mt-4
           ">
             <Link href="/admin">
               <a aria-label="Admin panel">
-              <p className="text-sm font-semibold">Admins</p>
+              <p className="text-sm font-semibold">Admin</p>
               </a>
             </Link>
           </div>
