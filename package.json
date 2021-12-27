@@ -1,11 +1,15 @@
+
 {
   "name": "hammerklavier-ecommerce",
+  "homepage": "https://github.com/andressbolivarr/hammerklavier-ecommerce",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@stripe/react-stripe-js": "^1.1.2",
