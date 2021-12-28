@@ -22,7 +22,7 @@ Click [here](https://hammerklavier-ecommerce.vercel.app/category/on-sale) to see
 ### Cart view
 ![Cart view](example-images/image2.png)
 ### Admin panel
-![Admin panel](example-images/3.png)
+![Admin panel](example-images/image3.png)
 </details>
 
 ### Getting started
