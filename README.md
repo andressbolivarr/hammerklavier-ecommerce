@@ -8,7 +8,7 @@ Out of the box, the site uses completely static data coming from a provider at `
 
 ### Live preview
 a
-Click [here](https://www.Hammerklavierecommerce.dev/) to see a live preview.
+Click [here](https://hammerklavier-ecommerce.vercel.app/category/on-sale) to see a live preview.
 
 <details>
   <summary>Other Hammerklavier Ecommerce  pages</summary>
