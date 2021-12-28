@@ -30,7 +30,7 @@ Click [here](https://hammerklavier-ecommerce.vercel.app/category/on-sale) to see
 1. Clone the project
 
 ```sh
-$ git clone https://github.com/Hammerklavier-cms/Hammerklavier-ecommerce.git
+$ git clone https://github.com/andressbolivarr/hammerklavier-ecommerce
 ```
 
 2. Install the dependencies:
