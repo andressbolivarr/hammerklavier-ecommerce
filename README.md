@@ -1,10 +1,10 @@
 ## Hammerklavier Ecommerce  Next
 
-Hammerklavier Ecommerce  Next provides a way to quickly get up and running with a fully configurable ECommerce site using Next.js.
+Hammerklavier Ecommerce Next provides a way to quickly get up and running with a fully configurable ECommerce site using Next.js.
 
 Out of the box, the site uses completely static data coming from a provider at `providers/inventoryProvider.js`. You can update this provider to fetch data from any real API by changing the call in the `getInventory` function.
 
-![Home](example-images/1.png)
+![Home](example-images/image1.png)
 
 ### Live preview
 a
@@ -14,15 +14,15 @@ Click [here](https://www.Hammerklavierecommerce.dev/) to see a live preview.
   <summary>Other Hammerklavier Ecommerce  pages</summary>
 
 ### Category view
-![Category view](example-images/2.png)
+![Category view](example-images/image6.png)
 
 ### Item view
-![Item view](example-images/3.png)
+![Item view](example-images/image4.png)
 
 ### Cart view
-![Cart view](example-images/4.png)
+![Cart view](example-images/image2.png)
 ### Admin panel
-![Admin panel](example-images/5.png)
+![Admin panel](example-images/3.png)
 </details>
 
 ### Getting started
@@ -169,12 +169,5 @@ await Promise.all(
 - Themeing + dark mode
 - Optional user account / profiles out of the box
 - Make Admin Panel responsive
-- Have an idea or a request? Submit [an issue](https://github.com/Hammerklavier-cms/Hammerklavier-ecommerce/issues) or [a pull request](https://github.com/Hammerklavier-cms/Hammerklavier-ecommerce/pulls)!
 
 ### Other considerations
-
-#### Server-side processing of payments
-
-To see an example of how to process payments server-side with stripe, check out the [Lambda function in the snippets folder](https://github.com/Hammerklavier-cms/Hammerklavier-ecommerce/blob/next/snippets/lambda.js).
-
-Also, consider verifying totals by passing in an array of IDs into the function, calculating the total on the server, then comparing the totals to check and make sure they match.
