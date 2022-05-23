@@ -33,6 +33,7 @@ Click [here](https://hammerklavier-ecommerce.vercel.app/category/on-sale) to see
 $ git clone https://github.com/andressbolivarr/hammerklavier-ecommerce
 ```
 
+
 2. Install the dependencies:
 
 ```sh
